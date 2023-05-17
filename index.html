@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Funete de letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@300;400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <title>Gustavo Linares | CV</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/file-earmark-person-fill.svg" type="image/svg+xml">
+</head>
+<body>
+    <!--------------------|Barra de navegacion|--------------------------------------------------------------->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="images/file-earmark-person-fill.svg" width="50" alt="Imagen CV">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos-recientes">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Cursos">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!------------------------------------------------------------------------------------------------------------>
+    <!-----------------------|Seccion Hero|--------------------------------------------------------------------->
+    <section  class="hero align-items-stretch">
+      <div class="hero-principal">
+        <img class="hero-imagen-desarrollador" src="images/FB_IMG_1678150207382.jpg" alt="imagen de Perfil">
+        <h1>Hola, soy Gustavo Linares</h1>
+        <h2>Desarrollador de software y estudiante Politécnico en la carrera de Ing. Sistemas computacionales. <br> ESCOM.</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="images/hero-inferior.svg" alt="Herramientas de Desarrollador web">
+      </div>
+    </section>
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <!------------------------|Sobre mí|------------------------------------------------------------------------->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Sobre mí</h2>
+        <p class="seccion-texto">Hola, Mi nombre es <b>Gustavo Linares Villegas</b> y soy estudiante de Ing. Sistemas computacionales del <b>Instituto politécnico Nacional</b> universidad <strong>ESCOM</strong></p>
+      </div>
+    </section>
+    
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <!-------------------------|Experiencia|---------------------------------------------------------------------->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo web -->
+          <div class=" columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Conocimento de HTML, CSS, JavaScript, entre otras tecnologias como; PHP, REACT y BOOTSTRAP.</p>
+            
+            <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">Bootstrap</span>
+            </div>
+          </div>
+          <!-- Herraminetas -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-tools"></i>
+            <p class="experiencia-titulo">Herramientas</p>
+            <p>Uso y manejo estas herramientas en mi dia a dia. </p>
+            <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Linux</span>
+            <span class="badge text-bg-primary">Windows</span>
+            <span class="badge text-bg-primary">Node.js</span>
+            <span class="badge text-bg-primary">ChatGPT</span>
+            <span class="badge text-bg-primary">Visual Estdudio Code</span>
+            </div>
+          </div>
+
+          <!-- estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-pencil-fill"></i>
+            <p class="experiencia-titulo">Estudios</p>
+            <p>Soy estudiante de la carrera de Ing. Sistemas ESCOM.</p>
+            <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Estudió en <b>IPN ESCOM</b> </span>
+            <span class="badge text-bg-primary">Cursos independientes en Udemy</span>
+            <span class="badge text-bg-primary">Java web</span>
+            <span class="badge text-bg-primary">C++ Intermedio</span>
+            </div>
+          </div>
+          </div>
+        </div>
+    </section>
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <!--------------------------|Preoyectos Recientes|------------------------------------------------------------>
+    <section id="proyectos-recientes" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+      <h3 class="seccion-descripcion">Proyectos que he creado con diferentes tecnologias...</h3>
+
+      <!-- Galeria de proyectos  -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/poyecto_presupuesto.png" alt="poyecto_presupuesto">
+              <div class="overlay">
+                <p>Proyecto Presupuesto.</p>
+                <!-- <p>Es una pagina web que guarda la cantidad que le digite y te muestra la diferencia de abonos y diferencia de gastos.</p> -->
+                <div class="iconos-contenedor align-items-center">
+                  <a href="https://github.com/GusLV12/Listado-de-personas" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------------------------------------------------------ -->
+        </div>
+      </div>
+      <!-- Boton para github personal -->
+      <button type="button" class="btn btn-info">
+        <a href="https://github.com/GusLV12?tab=repositories" target="_blank" rel="noopener noreferrer" >
+        Perfil de GitHub
+        <i class="bi bi-arrow-right-circle-fill"></i>
+        </a>
+      </button>
+    </section>
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <!-------------------------|Cursos|------------------------------------------------------------------------>
+    <section id="Cursos" class="Cursos seccion-clara">
+      <h2 class="seccion-titulo">Cursos Tomados</h2>
+      <h3 class="curso-descripcion">Cursos que he tomado en diferentes platafromas.</h3>
+
+      <!-- Corusel -->
+      <div id="Cursos-carrusel" class="carousel-dark carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#Cursos-carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#Cursos-carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#Cursos-carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#Cursos-carrusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Cursos/UC-068a1ff4-1bd6-498c-ba41-7a8bbb3b1c81_page-0001.jpg" class="d-block w-100" alt="Curso BD">
+          </div>
+          <div class="carousel-item">
+            <img src="Cursos/UC-5515c97b-044d-44ea-be87-1ae277754b11_page-0001.jpg" class="d-block w-100" alt="Curso HTMl">
+          </div>
+          <div class="carousel-item">
+            <img src="Cursos/UC-157ad0e9-a396-4283-8b7c-d5578a94fd7f_page-0001.jpg" class="d-block w-100" alt="Curso CSS">
+          </div>
+          <div class="carousel-item">
+            <img src="Cursos/UC-89cd7ce1-2940-4d62-bab8-8394c46b38ca_page-0001.jpg" class="d-block w-100" alt="Curso JavaScript">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Cursos-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Cursos-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Boton para carpeta google personal -->
+      <button type="button" class="btn btn-info">
+        <a href="https://drive.google.com/drive/folders/1WwDln_YBknreofwd7todL4WkV_T6RRSf?usp=sharing" target="_blank" rel="noopener noreferrer" >
+        Link de cursos.
+        <i class="bi bi-arrow-right-circle-fill"></i>
+        </a>
+      </button>
+    </section>
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <!--------------------------|Contacto|------------------------------------------------------------------------>
+    <section id="Contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center d-flex rectangulo justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame si estás interesado en mi skills y quieres que este en tu equipo.
+            </div>
+            <div class="col-12 col-md-4 ">
+              <a href="mailto:guslinaresv@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <!--------------------------|Footer|-------------------------------------------------------------------------->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="images/arrow-down-circle.svg" alt="Logo del texto">
+      <p class="footer-texto text-center">Aprendo y Desarrollo código todos los dias.<br>Creemos un proyecto juntos.</p>
+      <div class="icono-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.facebook.com/profile.php?id=100079030605898" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://github.com/GusLV12" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/gustavo-linares-villegas-5a39a325a/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="mailto:guslinaresv@gmail.com"><i class="bi bi-envelope"></i></a>
+      </div>
+      <div class="derechos-de-autor">Creado por GusLV &#169;</div>
+    </footer>
+
+    <script src=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
